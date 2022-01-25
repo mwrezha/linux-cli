@@ -92,6 +92,17 @@ Tips and Tricks se [here](https://btholt.github.io/complete-intro-to-linux-and-t
 # Editors
 
 ## Nano
+
 <img width="571" alt="Screen Shot 2022-01-25 at 10 55 15" src="https://user-images.githubusercontent.com/85267052/150908406-3b4fd3f1-8db1-42f9-b604-c66159e0b859.png">
 
 [Nano](https://www.nano-editor.org/dist/latest/faq.html#1.1) is included on just about every Linux/Unix-like OS and is frequently the default text editor, due its tiny size, light weight, and permissive license.
+
+Let's try now, type ``nano textfile.txt``. This will create a new file called ``textfile.txt`` in the directory in your folder. Type something in there and take a look at the bottom bar and you'll see a bunch of available actions.
+
+The ``^`` represents CTRL. So if you want to "get help", hit CTRL+G you will see main nano help text.
+
+So hit CTRL+O. It'll make sure you don't want to save it somewhere else and a few other options. We should be good with it so just hit enter. Now that we've completed what we wanted to do, hit CTRL+X to exit nano entirely.
+
+## Vim
+
+Let's start vim. Type ``vim textfile.txt`` to open the file you previously wrote.
