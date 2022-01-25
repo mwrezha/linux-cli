@@ -93,16 +93,27 @@ Tips and Tricks se [here](https://btholt.github.io/complete-intro-to-linux-and-t
 
 ## Nano
 
-<img width="571" alt="Screen Shot 2022-01-25 at 10 55 15" src="https://user-images.githubusercontent.com/85267052/150908406-3b4fd3f1-8db1-42f9-b604-c66159e0b859.png">
-
 [Nano](https://www.nano-editor.org/dist/latest/faq.html#1.1) is included on just about every Linux/Unix-like OS and is frequently the default text editor, due its tiny size, light weight, and permissive license.
 
 Let's try now, type ``nano textfile.txt``. This will create a new file called ``textfile.txt`` in the directory in your folder. Type something in there and take a look at the bottom bar and you'll see a bunch of available actions.
 
 The ``^`` represents CTRL. So if you want to "get help", hit CTRL+G you will see main nano help text.
 
+<img width="662" alt="Screen Shot 2022-01-25 at 11 14 15" src="https://user-images.githubusercontent.com/85267052/150913225-b2dad875-587c-4e6c-97b7-7e472c001aa7.png">
+
 So hit CTRL+O. It'll make sure you don't want to save it somewhere else and a few other options. We should be good with it so just hit enter. Now that we've completed what we wanted to do, hit CTRL+X to exit nano entirely.
+
+<img width="554" alt="Screen Shot 2022-01-25 at 11 24 52" src="https://user-images.githubusercontent.com/85267052/150913255-c852eee3-6f5f-4570-8540-fbddf12173ad.png">
+
 
 ## Vim
 
 Let's start vim. Type ``vim textfile.txt`` to open the file you previously wrote.
+
+<img width="559" alt="Screen Shot 2022-01-25 at 11 35 45" src="https://user-images.githubusercontent.com/85267052/150913917-e4b9a39c-47af-4758-9979-d64b9dbefb2d.png">
+
+vim has multiple modes you can put the editor into. By default we are in command mode. So if you start typing, nothing will appear and you may actually accidentally trigger some commands. If you want to kick the editor into insert mode, just hit ``i``. You should see ``-- INSERT --`` at the bottom to let you know you can type now. I'm going to put And now I'm writing this from vim. at the bottom of the file. Once I'm done writing and want to head back to command mode, you can hit Esc. You'll see the ``-- INSERT --`` disappear.
+
+So, now we have our file modified the way we want to so let's save. Type ``:w``. That's how you save. Now you can quit without a warning. Type ``:q`` and you'll quit out. If you want to do that in one motion, type ``:wq`` and it'll write then quit.
+
+If you do desire to go in-depth on vim, you can do one of two things. One is to type ``:help tutor`` from the command mode and it'll start the tutor. A more fun way is vim [adventures](https://vim-adventures.com/) which is a fun game to learn the keys.
