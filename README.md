@@ -92,7 +92,6 @@ Tips and Tricks se [here](https://btholt.github.io/complete-intro-to-linux-and-t
 # Editors
 
 ## Nano
-
-![Getting Started](images/Screen Shot 2022-01-25 at 10.55.15.png)
+<img width="571" alt="Screen Shot 2022-01-25 at 10 55 15" src="https://user-images.githubusercontent.com/85267052/150908406-3b4fd3f1-8db1-42f9-b604-c66159e0b859.png">
 
 [Nano](https://www.nano-editor.org/dist/latest/faq.html#1.1) is included on just about every Linux/Unix-like OS and is frequently the default text editor, due its tiny size, light weight, and permissive license.
